@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dart",
+			"command": "flutter",
+			"args": [
+				"pub",
+				"run",
+				"build_runner",
+				"watch"
+			],
+			"label": "dart: flutter pub run build_runner watch",
+			"runOptions": {
+				"runOn": "folderOpen"
+			}
+		}
+	]
+}
